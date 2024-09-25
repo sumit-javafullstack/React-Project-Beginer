@@ -1,0 +1,77 @@
+1) ES7+ React/Redux/React-Native snippets
+2) then rafce
+*****************************************
+Global CSS
+    ----> App.csss
+    * This is accessable by all the component without import.
+    * We use styling inside app.css if we have requirement which will be same across every components
+    * For e.g: 
+        1) font-family means either Calibari/Arial across browser
+        2) .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            }
+            -> This is making sure our app should be having maximu width 1280px
+            we just have to use the above class name inside each componet to make fix width of 1280px.
+
+*****************************************
+Reason to use container:
+In App.css , We are using 
+            .container {
+                        max-width: 1280px;
+                        margin: 0 auto;
+                        } 
+
+lets consider two components Navigation and ContactHeader.
+If we set max-width: 1280px; only to Navigation and ContactHeader without max-width property.
+UI would look like 
+    -----------
+    |          |
+    |          |   -> Navigation Component
+    -----------
+--------------
+|             |  -> ContactHeader componet
+|             | 
+|-------------|    
+
+Inorder to have same width across all the component we use global css with .container and 
+we use that class in each of the components.
+
+*****************************************
+Reason to use Module:
+     className={ `${styles.contactHeader} container`}
+With the help of module.css, it is easy to add more than one css classes.            
+
+Note:
+        .contactHeader h1 {
+
+        }
+        .contactHeader p {
+
+        }
+Here, we created contactHeader css class and we are consuming like 
+<div className={ `${styles.contactHeader} container`}>.
+
+So, h1 and p will use respective design from the contactHeader css class.
+
+we can use 
+    .contactHeader ul li
+    .contactHeader div p etc as well.
+
+*****************************************
+Component height and width.
+    -> width we already disscussed and added to container class for having same width across components
+    -> As height of each components may vary based on design, we will have to fix height of components
+        based on the requirements.
+
+    Here,
+      height: 72px;// for Navingation
+      
+
+*****************************************
+
+
+*****************************************
+
+
+*****************************************

@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #49557e;
+    cursor: pointer;
+}
+
+.navbar_right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar button{
+    
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    padding: 10px 30px;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+
+.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid blue;
+}
+
+.navbar-basket-icon {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}

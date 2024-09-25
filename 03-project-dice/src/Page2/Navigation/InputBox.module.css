@@ -1,0 +1,28 @@
+.box {
+
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700px;
+    justify-content: center;
+
+
+}
+
+.options  {
+    display: flex;
+
+}
+
+
+.page2_nav p{
+    float: right;
+    margin: 0%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

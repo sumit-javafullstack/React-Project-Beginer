@@ -1,0 +1,35 @@
+
+.dsply_home {
+    display: flex;
+
+}
+
+
+.homeInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.homeInput h2{
+    font-family: Arial, sans-serif;
+    font-weight: 200px;
+    font-size: 80px;
+    margin: 0px; /*space between 2 element we call it margin */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

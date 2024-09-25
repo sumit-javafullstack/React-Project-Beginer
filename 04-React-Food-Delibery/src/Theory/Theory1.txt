@@ -1,0 +1,25 @@
+1) creation of assets.js whch is responsible for providing all the resouces will be use for the project.
+
+2) creation of nav bar and proper naming convention for classes.
+
+3) login button with hover effect.
+
+4) fadeIn effect with 3 second.
+
+5) Relative and absolute positioning concept. ( refer to header css )
+
+6) modify image size  with relative text.
+
+7) added scroll bar concept.
+
+8) uses of hr tag
+
+9) createContext uses: If we have to declare any variable/object which should be accessible by all the components
+    and we use useCpntext and createContext.
+    Complex State Management -> we use Redux
+    Simple State Management:  -> we use useContext
+
+
+
+
+

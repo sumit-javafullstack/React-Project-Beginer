@@ -1,0 +1,37 @@
+***************************************************************************************
+Use of Style Components for download:
+
+    -> https://styled-components.com/docs/basics#installation
+
+    -> # with npm
+        npm install styled-components
+
+    -> add below to package.json:
+
+        "resolutions": {
+            "styled-components": "^5"
+        }
+
+***************************************************************************************
+succesful  implementation of 
+    height: calc(100vh - 72px);
+
+***************************************************************************************
+comment the redux part in TotalScore components, It will work
+
+
+
+
+
+
+
+
+
+
+***************************************************************************************
+
+
+
+
+
+***************************************************************************************

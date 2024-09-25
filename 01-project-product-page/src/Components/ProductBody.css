@@ -1,0 +1,39 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    /* Each will have equal margin from left and right side */
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh - 60px)
+}
+
+.product h1 {
+   font-size: 108px;
+   line-height: 102px;
+   font-weight: 800;
+}
+
+.product p {
+
+    font-weight: 600;
+    color: rgb(110, 70, 17);
+ }
+
+ .product-btn {
+    display: flex;
+    gap: 40px;
+ }
+
+ .category-btn {
+    background-color: transparent;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }
+
+ .notes {
+    float: left;
+ }

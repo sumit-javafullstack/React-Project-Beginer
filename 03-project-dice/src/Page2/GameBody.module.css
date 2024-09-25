@@ -1,0 +1,5 @@
+.page22 {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+}

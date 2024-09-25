@@ -1,0 +1,25 @@
+.page2body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+
+}
+
+.dice_roll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.dice_roll p{
+   font-size: 20px;
+}
+
+.page2_body_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
